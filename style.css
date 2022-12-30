@@ -1,0 +1,222 @@
+html{
+
+    background-color:black ;
+/* margin:  10px; */
+/* padding:1% ; */
+
+}
+
+
+header
+
+{
+height: 100%;
+width: 100%;
+
+}
+
+
+
+.nav 
+
+{ display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top:0%;
+    /* height: 10vh;  */
+  border-bottom: 1px solid white;
+
+
+
+
+}
+
+
+.p1
+
+{
+
+color: white;
+margin: 1.5rem;
+font-size: larger;
+}
+
+
+.p2
+
+{
+display: flex;
+justify-content: space-between;
+gap: 25px;
+margin: 1.5rem;
+/* text-underline-position: none; */
+/* color: white; */
+font-size: larger;
+}
+
+
+a
+{
+    color:white ;
+ text-decoration: none;   
+}
+
+p{
+color: whitesmoke;
+box-sizing: content-box;
+}
+
+
+.business
+
+
+{ display: flex;
+  justify-content: space-around;
+  margin-top: 10%; 
+
+}
+
+.biggest-heading
+
+{
+color: white;
+font-size: 20vh;
+animation-name: anime;
+animation-duration: 10s;
+animation-delay: 2s;
+animation-direction: reverse;
+animation-iteration-count: infinite;
+}
+@keyframes anime 
+
+{
+0%{color: brown;}
+50%{color: blue;}
+100%{color: aliceblue;}
+}
+
+
+
+.arrow
+
+
+
+{
+color: white;
+display: flex;
+justify-content: center;
+
+font-size: 3rem;
+/* border: 1px solid white; */
+}
+
+
+section
+{
+background-color: white;
+display: flex;
+justify-content: space-around;
+}
+
+p{
+
+color: black;
+padding: 5vh;}
+
+#aa
+
+
+{
+padding: 5vh;
+
+}
+
+#ak
+
+
+{
+margin: 10vh;
+
+}
+
+
+
+
+#our-services
+{
+background-color: white;
+
+}
+
+
+.our
+
+{
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space;
+overflow-x:scroll;
+  margin: 10px;
+
+}
+.box
+
+{ border: 1px solid black;
+
+} 
+ 
+
+
+.box :hover{
+        background-color: black;
+        color: white;
+       transition-delay: 0.3s;   
+       border: 1px solid black;
+
+    }
+
+
+footer
+
+
+{
+
+background-color: black;
+
+
+}
+
+
+#contact
+
+{
+
+display: flex;
+justify-content: center;
+color:  white;
+}
+
+.form
+
+
+{
+
+margin-left:50vh ;
+
+}
+
+
+
+.fr
+
+{background-color: black;
+color: white;
+
+
+}
+
+
+/* media queary */

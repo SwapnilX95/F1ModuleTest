@@ -219,4 +219,159 @@ color: white;
 }
 
 
-/* media queary */
+
+/* media queary  for navbar- */
+@media  (min-width:320px) and (max-width:500px) {
+    
+*
+{
+    width: 100%;
+
+}
+
+    .nav 
+
+    { display: flex;
+      justify-content: space-around;
+      background-color: black;
+      position: fixed;
+      /* width: ; */
+      top:0%;
+      
+        /* height: 10vh;  */
+      border-bottom: 1px solid white;
+    
+    
+    
+    
+    }
+    
+    
+    .p1
+    
+    {
+    
+    color: white;
+    margin: 1.5rem;
+    font-size: larger;
+    }
+    
+    
+    .p2
+    
+    {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 1.5rem;
+    /* text-underline-position: none; */
+    /* color: white; */
+    font-size: larger;
+    }
+    
+.business
+{
+display: flex;
+justify-content: space-around;
+
+}
+
+
+{
+
+/* height:100vh ; */
+width: 50vw;
+
+}
+
+
+
+}
+
+html
+
+{
+width: 100;
+
+}
+
+
+
+
+@media  (min-width:500px) and (max-width:800px) {
+
+
+
+
+    .form
+
+
+    {
+    
+    margin-left:25vh ;
+    width:75vh ;
+    length:50vh;
+    
+  }
+    
+    
+    
+    .fr
+    
+    {background-color: black;
+    color: white;
+    width: 50vh;
+    
+    }
+    
+
+    
+
+
+#our-services
+{
+background-color: white;
+
+}
+
+
+.our
+
+{
+background-color: white;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+overflow-x:scroll;
+margin: 10px;
+
+}
+.box
+
+{ border: 1px solid black;
+height:200px ;
+width:200px ;
+} 
+ 
+
+
+.box :hover{
+        background-color: black;
+        color: white;
+       transition-delay: 0.3s;   
+       border: 1px solid black;
+
+    }
+
+
+footer
+
+
+{
+
+background-color: black;
+
+
+}
+
+
